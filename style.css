@@ -1,6 +1,8 @@
 .advanced-menu-plugin {
   list-style: none;
   padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  border-left: 5px solid #44c5c5;
 }
 .advanced-menu-plugin ul{
   list-style: none;
@@ -24,9 +26,13 @@
 }
 .advanced-menu-plugin .menu-item-has-children {
   position: relative;
+  padding-left: 0;
 }
 .advanced-menu-plugin li.menu-item-has-children:hover {
-    background-color: #00bcd4;
+  background-color: #00bcd4;
+}
+.advanced-menu-plugin .menu-item-has-children a {
+  padding-left: 20px;
 }
 .advanced-menu-plugin .advanced-menu-toggle {
     display: none;
@@ -66,6 +72,7 @@
     padding: 0;
     transition: max-height 0.2s ease-in;
     margin-right: 20px;
+    padding-left: 20px;
 }
 .advanced-menu-plugin .sub-menu li.menu-item {
     padding: 0;
@@ -84,4 +91,20 @@
 }
 .advanced-menu-plugin .menu-item-has-children:not(.open) .sub-menu {
     max-height: 0 !important;
+    
+}
+
+/* ProgressAlly specific styles. Thanks for being !important :/ */
+.advanced-menu-plugin .menu-completed-icon {
+  left: 3px !important;
+  top: 36px !important;
+  width: 15px !important;
+  height: 15px !important;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.advanced-menu-plugin .sub-menu .menu-completed-icon {
+  top: 26px !important;
+  left: -8px !important;
 }

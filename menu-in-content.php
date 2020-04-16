@@ -3,7 +3,7 @@
  * Plugin Name: Menu in Content
  * Plugin URI: https://victor-fernandes.com/menu-in-content
  * Description: Display a neat menu list in place of the shortcode
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 5.4
  * Requires PHP: 7.0
  * Author: Victor Fernandes
@@ -15,7 +15,6 @@
 add_shortcode( 'menu_in_content', 'vf_menu_func' );
 
 function vf_menu_func( $atts ) {
-    // return "Hola";
     return wp_nav_menu($args = array(
         'menu'              => $atts['id'], // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
         'menu_class'        => "advanced-menu-plugin", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
