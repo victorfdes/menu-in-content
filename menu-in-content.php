@@ -3,7 +3,7 @@
  * Plugin Name: Menu in Content
  * Plugin URI: https://victor-fernandes.com/menu-in-content
  * Description: Display a neat menu list in place of the shortcode
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 5.4
  * Requires PHP: 7.0
  * Author: Victor Fernandes
