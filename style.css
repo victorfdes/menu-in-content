@@ -17,6 +17,9 @@
   padding-left: 20px;
   border-bottom: 1px solid #6dc7c7;
 }
+.advanced-menu-plugin li.current_page_item {
+  background-color: #44c5c5 !important;
+}
 .advanced-menu-plugin li a:hover {
     color: #000;
 }
