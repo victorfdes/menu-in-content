@@ -2,6 +2,7 @@
   list-style: none;
   padding-left: 0 !important;
   padding-bottom: 0 !important;
+  background-color: #7cdede;
   border-left: 5px solid #44c5c5;
 }
 .advanced-menu-plugin ul{
@@ -10,7 +11,6 @@
 }
 .advanced-menu-plugin li{
   list-style: none;
-  background-color: #00bcd4;
   transition: background-color 0.2s ease-in;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -29,7 +29,9 @@
   padding-left: 0;
 }
 .advanced-menu-plugin li.menu-item-has-children:hover {
-  background-color: #00bcd4;
+}
+.advanced-menu-plugin .menu-item-has-children.open {
+  background-color: #8bdddd;
 }
 .advanced-menu-plugin .menu-item-has-children a {
   padding-left: 20px;
@@ -60,7 +62,7 @@
     height: 25px;
     width:25px;
     align-items: center;
-    background: #fff;
+    background-color: #fff;
     border-radius: 50%;
 }
 .advanced-menu-plugin .menu-item-has-children > a {
