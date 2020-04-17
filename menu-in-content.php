@@ -27,6 +27,6 @@ function vf_menu_func( $atts ) {
 
 function menu_in_content_scripts() {
     wp_enqueue_style( 'style-name', plugins_url( 'style.css', __FILE__ ) );
-    wp_enqueue_script( 'script-name', plugins_url( 'main.js', __FILE__ ), array(), '1.0.0', true );
+    wp_enqueue_script( 'script-name', plugins_url( 'main.js', __FILE__ ), array(), '1.0.2', true );
 }
 add_action( 'wp_enqueue_scripts', 'menu_in_content_scripts' );
