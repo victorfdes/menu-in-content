@@ -1,5 +1,5 @@
 (function () {
-  var activeListItem = document.querySelectorAll('.advanced-menu-plugin .current_page_parent.menu-item-has-children')
+  var activeListItem = document.querySelectorAll('.advanced-menu-plugin .current-menu-ancestor')
   if (activeListItem) {
     activeListItem.forEach(function (element) {
       element.classList.add('open');
@@ -15,6 +15,6 @@
 
   var subMenus = document.querySelectorAll('.advanced-menu-plugin .sub-menu')
   subMenus.forEach(function (sub) {
-    sub.style.maxHeight = sub.scrollHeight + 'px'
+//     sub.style.maxHeight = sub.scrollHeight + 'px'
   })
 })();

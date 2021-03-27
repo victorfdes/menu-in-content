@@ -3,7 +3,7 @@
  * Plugin Name: Menu in Content
  * Plugin URI: https://victor-fernandes.com/menu-in-content
  * Description: Display a neat menu list in place of the shortcode
- * Version: 1.0.2
+ * Version: 1.0.3
  * Requires at least: 5.4
  * Requires PHP: 7.0
  * Author: Victor Fernandes
@@ -20,7 +20,7 @@ function vf_menu_func( $atts ) {
         'menu_class'        => "advanced-menu-plugin", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
         'container'         => "div",
         'echo'              => false,
-        'depth'             => 2,
+        'depth'             => 3,
         'after'             => '<span class="advanced-menu-toggle"><div class="icon"></div></span>'
     ));
 }
